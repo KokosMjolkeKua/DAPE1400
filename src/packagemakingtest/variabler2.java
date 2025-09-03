@@ -20,4 +20,6 @@ public class variabler2 {
         String postNr;
         String postSted;
         String telefonNr;
+        System.out.println("Din alder er " + alder);
+    }
 }

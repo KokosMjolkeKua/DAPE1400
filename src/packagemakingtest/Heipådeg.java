@@ -18,7 +18,7 @@ public class Heipådeg {
 
             System.out.println(Utskrift);
             showMessageDialog(null, "Ha en fin dag " + navn + ", hadet bra!");
-        }
+
     }
 
 }
