@@ -86,6 +86,10 @@ public class forelesning3 {
             System.out.println("Første tallet er mindre eller likt det andre tallet!");
         }
 
+        // BOOLEAN er bare for true eller false
+
+
+
 
 
 
