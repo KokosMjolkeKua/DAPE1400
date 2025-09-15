@@ -26,9 +26,9 @@ class Books{
 public class Oppgave1 {
     public static void main(String[]args){
         Books nyBok = new Books();
-        String Print = Books.PrintnyBok
+        //String Print = Books.PrintnyBok
         nyBok.settInfo("Hunger games", "299", "Ett eller annet", "12345678");
-        System.out.print(PrintnyBok);
+        //System.out.print(PrintnyBok);
 
 
 
