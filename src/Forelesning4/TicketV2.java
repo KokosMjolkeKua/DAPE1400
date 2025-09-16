@@ -28,6 +28,7 @@ public class TicketV2 {
     }
 
     public String getDestination(){
+
         return this.destination;
     }
 }
