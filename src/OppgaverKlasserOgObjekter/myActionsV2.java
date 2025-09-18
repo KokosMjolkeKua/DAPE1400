@@ -29,11 +29,30 @@ public class myActionsV2 {
                 nyAction.metodeE();
                 break;
 
-            case JOptionPane.CLOSED_OPTION:
+            case CLOSED_OPTION:
                 showMessageDialog(null, "Ingen metode valgt!");
                 break;
         }
+
+        boolean continueProgram = true;
+
+        while (continueProgram) {
+            showMessageDialog(null, "Det var egentlig alt");
+
+            String input = showInputDialog(null, "Vil du prøve igjen? (Ja/Nei)");
+
+            if (input == null) {
+                continueProgram = false;
+            } else if (input.equalsIgnoreCase("nei")) {
+                continueProgram = false;
+            } else if (!input.equalsIgnoreCase("ja")) {
+                showMessageDialog(null, "Ikke gylidg, tast enten 'ja' eller 'nei'!.");
+            }
+        }
+
+        showMessageDialog(null, "Takk for denne gang!");
     }
+
 
     public void metodeA() {
         showMessageDialog(null, "Addere har blitt valgt!");
@@ -94,5 +113,6 @@ public class myActionsV2 {
                 + "\nNår man multipliserer " + tall1 + " og " + tall2 + " får vi: " + sumToDesimaler3 + "."
                 + "\nNår man dividerer " + tall1 + " og " + tall2 + " får vi: " + sumToDesimaler4 + ".");
     }
+
 }
 
