@@ -1,6 +1,6 @@
 package OppgaverTilDatatyperogBrukerInput;
 import static javax.swing.JOptionPane.*;
-public class Oppgave2 {
+public class  Oppgave2 {
     public static void main(String[]args){
         double voksenPris = 150;
         double barnePris = 150 - (150 * 0.1);

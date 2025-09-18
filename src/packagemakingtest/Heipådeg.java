@@ -2,7 +2,7 @@ package packagemakingtest;
 
 import static javax.swing.JOptionPane.*;
 
-public class Heipådeg {
+public class  Heipådeg {
      public static void main(String[] args) {
             String navn;
             navn = showInputDialog("Hei, hva heter du?");

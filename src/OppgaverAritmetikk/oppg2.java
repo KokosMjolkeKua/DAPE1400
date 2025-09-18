@@ -1,6 +1,6 @@
 package OppgaverAritmetikk;
 
-public class oppg2 {
+public class  oppg2 {
     public static void main(String[]args){
         int antall = 0;
         while (antall < 10) {

@@ -1,6 +1,6 @@
 package OppgaverTilDatatyperogBrukerInput;
 //import static javax.swing.JOptionpane.*;
-public class Oppgave4 {
+public class  Oppgave4 {
     public static void main(String[]args) {
 
        int tall1, tall2, sum;

@@ -1,4 +1,4 @@
-public class kahootSpørsmål {
+ public class kahootSpørsmål {
     public static void main(String[]args){
 
         int tall1 = 3;

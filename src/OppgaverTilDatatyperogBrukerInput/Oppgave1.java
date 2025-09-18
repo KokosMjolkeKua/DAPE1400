@@ -1,6 +1,6 @@
 package OppgaverTilDatatyperogBrukerInput;
 import static javax.swing.JOptionPane.*;
-public class Oppgave1 {
+public class  Oppgave1 {
     public static void main(String[] args){
         showMessageDialog(null, "Hei, dette er et program hvor vi kan finne ut hvor mye melk du trenger.");
         double MelDL;

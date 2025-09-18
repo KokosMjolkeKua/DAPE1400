@@ -9,7 +9,7 @@ public class oppg4 {
         try {
             radius = Double.parseDouble(showInputDialog("Vennligst skriv radiusen av sirkelen:"));
             omkrets = 2 * 3.14 * radius;
-            double omkretsMedToDecimaler = Double.parseDouble(String.format("%.2f",omkrets));
+            double omkretsMedToDecimaler = Double.parseDouble(String.format("%.2f",omkrets)) ;
             showMessageDialog(null, "Omkretsen av en sirkel med " + radius + " cm som radius blir " + omkretsMedToDecimaler + " cm.");
 
         } catch (Exception e) {

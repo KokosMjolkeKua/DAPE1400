@@ -10,7 +10,7 @@ public class StatiskeMetoder {
     public static void main(String[]args){
         double radius = Double.parseDouble(showInputDialog("Hva er radiusen?"));
         double areal = beregnAreal(radius);
-        DecimalFormat df2 = new DecimalFormat(".##");
+        DecimalFormat df2 = new DecimalFormat(".## ");
         showMessageDialog(null, "Arealet til en sirkel med radius " + radius + " er " + df2.format(areal));
 
     }

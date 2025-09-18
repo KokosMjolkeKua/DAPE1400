@@ -1,21 +1,23 @@
-package KlasserogObjekter;
+package KlasserOgObkekterModul4Gjennomgang;
 
 class Bil{
-    private String farge;
+    public String farge;
 
     public void settFarge(String fargen){
-        this.farge = fargen;
+        farge = fargen;
+        //System.out.println("Fargen til bilen er " + farge);
     }
     public String hentFarge(){
         return farge;
     }
-
 }
-public class MetoderInnOgUtData {
+
+public class Objekter1 {
     public static void main(String[]args){
         Bil nyBil = new Bil();
         nyBil.settFarge("Blå");
+
         String bilFargen = nyBil.hentFarge();
-        System.out.println("Fargen til bilen er  " + bilFargen);
+        System.out.println("Fargen til bilen er " + bilFargen);
     }
 }

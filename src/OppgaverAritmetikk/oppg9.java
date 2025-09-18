@@ -6,7 +6,7 @@ public class oppg9 {
         int tall2 = 4;
 
         //tall1 == tall2 : false;
-        //tall1 != tall2 : true;
+        // tall1 != tall2 : true;
         //tall1 <= tall2 : false;
         //tall1 >= tall2 : true;
         //tall1 < tall2 : false;
