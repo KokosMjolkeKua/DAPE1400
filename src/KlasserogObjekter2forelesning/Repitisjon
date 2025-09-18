@@ -99,4 +99,11 @@ Konstant:
 
 
 Static Metoder:
--
+- JOptionpane
+metoden bruker noe som ikke trenger ett object:
+- showMessageDialog(null, "");
+- showInputDialog("");
+
+når man putter static foran noe, blir den til ett statisk metode
+- import static javax.swingJOptionPane.*;
+- public static double computeVAT(double netPrice)

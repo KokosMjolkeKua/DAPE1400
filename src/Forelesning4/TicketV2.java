@@ -1,5 +1,5 @@
 package Forelesning4;
-
+import static javax.swing.JOptionPane.*;
 public class TicketV2 {
     private String name;
     private String personNr;
@@ -9,8 +9,15 @@ public class TicketV2 {
         this.name = name;
         this.personNr = personNr;
         this.destination = destination;
-        //snakker this. om den internet atributten i denne koden.
+
+        name = showInputDialog(null, "Navn:");
+        personNr = showInputDialog(null, " personNr: ");
     }
+    public void setName(){
+        this.name = showInputDialog(null,"Set navm: ");
+    }
+        //snakker this. om den internet atributten i denne koden.
+
 
 
     public void printTicketInfo(){
@@ -18,6 +25,7 @@ public class TicketV2 {
         System.out.println("Name: " + this.name);
         System.out.println("Person Nr: " + this.personNr);
         System.out.println("Destination: " + this.destination);
+        showMessageDialog(null, "");
         //husk å skrive System.out.println (fordi ln avgjør om det er neste linje eller ikke)
 
     }

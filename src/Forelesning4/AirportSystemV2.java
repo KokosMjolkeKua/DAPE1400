@@ -5,6 +5,7 @@ public class AirportSystemV2 {
         TicketV2 ticket1 = new TicketV2("Trym", "15125615123", "Svalbard");
         ticket1.printTicketInfo();
 
+        ticket1.setName();
         ticket1.setPassengerInfo("Kristian", "15423654253");
         //Må nå skrive både navn og personnr for at det skal funke
         ticket1.printTicketInfo();
