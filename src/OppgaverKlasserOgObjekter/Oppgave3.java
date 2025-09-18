@@ -21,7 +21,7 @@ public class Oppgave3 {
 
         Person nyPerson = new Person();
         nyPerson.navn = "Per Hansen";
-        nyPerson.adresse = "Osloveien 82";
+        nyPerson.adresse = "Osloveien 82 ";
         nyPerson.telefonnr = "22124512";
         nyPerson.fødselsår = År;
         nyPerson.enPerson();

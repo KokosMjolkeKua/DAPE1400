@@ -15,7 +15,7 @@ class Person2{
         this.år = år;
         this.fødselsår = fødselsår;
 
-        navn = showInputDialog("Hva er navnet ditt?");
+        navn = showInputDialog("Hva er navnet ditt? ");
         adresse = showInputDialog("Hva er din adresse?");
         telefonnr = showInputDialog("Hva er telefonnummeret ditt?");
         fødselsår = showInputDialog("Hvor gammel er du? (I hele tall)");

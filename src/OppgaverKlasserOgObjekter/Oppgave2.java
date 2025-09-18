@@ -15,7 +15,7 @@ class Boker {
         this.forfatter = forfatter;
         this.iSBN = iSBN;
 
-        tittel = showInputDialog("Hva er tittelen på boken?");
+        tittel = showInputDialog("Hva er tittelen på boken?  ");
         pris = showInputDialog("Hva er prisen?");
         forfatter = showInputDialog("Hvem er forfatteren?");
         iSBN = showInputDialog("Hva er iSBN nummeret?");
