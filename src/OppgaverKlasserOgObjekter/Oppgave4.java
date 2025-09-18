@@ -27,7 +27,7 @@ class Person2{
     }
 }
 
-public class Oppgave4 {
+public class  Oppgave4 {
     public static void main(String[]args){
         Person2 nyPerson2 = new Person2();
         nyPerson2.enPerson2();

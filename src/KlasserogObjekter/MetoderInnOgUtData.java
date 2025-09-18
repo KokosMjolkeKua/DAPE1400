@@ -16,6 +16,6 @@ public class MetoderInnOgUtData {
         Bil nyBil = new Bil();
         nyBil.settFarge("Blå");
         String bilFargen = nyBil.hentFarge();
-        System.out.println("Fargen til bilen er " + bilFargen);
+        System.out.println("Fargen til bilen er  " + bilFargen);
     }
 }

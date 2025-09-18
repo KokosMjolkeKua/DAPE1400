@@ -4,7 +4,7 @@ class Bil1{
     public String farge;
 
     public void visFarge(){
-        System.out.println("Fargen til bilen er " + farge);
+        System.out.println(" Fargen til bilen er " + farge);
     }
 }
 

@@ -1,4 +1,4 @@
 package packagemakingtest;
 
-public class Oblig1 {
+public class  Oblig1 {
 }

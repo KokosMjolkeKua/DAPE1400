@@ -1,6 +1,6 @@
 package OppgaverForelesning1og2;
 import static javax.swing.JOptionPane.*;
-public class oppgave7 {
+public class  oppgave7 {
     public static void main(String[] args){
         showMessageDialog(null, "Velkommen til desimaltallsregning!");
         String tall1 = showInputDialog("Skriv inn et desimaltall:");

@@ -8,7 +8,7 @@ class Kalkulator{
         this.tall1 = tall1;
         this.tall2 = tall2;
 
-        tall1 = double.parsedouble(showInputDialog("  "));
+        tall1 = double.parsedouble(showInputDialog("   "));
         tall2 = double.parsedouble(showInputDialog(""));
     }
 }

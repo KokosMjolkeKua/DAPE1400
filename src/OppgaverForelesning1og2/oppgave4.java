@@ -1,7 +1,7 @@
 package OppgaverForelesning1og2;
 import static javax.swing.JOptionPane.*;
 
-public class oppgave4 {
+public class  oppgave4 {
     public static void main(String[] args){
         showMessageDialog(null, "Hei, velkommen til mitt program!");
 

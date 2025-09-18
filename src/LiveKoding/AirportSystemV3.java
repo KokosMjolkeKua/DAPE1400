@@ -4,7 +4,7 @@ public class AirportSystemV3 {
     public static void main(String[] args) {
         showMessageDialog(null, "Please input ticket information");
         TicketV3 ticket1 = new TicketV3(
-                showInputDialog("Please input your name: "),
+                showInputDialog("Please input your name:  "),
                 showInputDialog("Please input your person Nr: "),
                 showInputDialog("Please input your destination: ")
         );

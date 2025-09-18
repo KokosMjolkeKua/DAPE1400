@@ -3,7 +3,7 @@ package packagemakingtest;
 import static javax.swing.JOptionPane.*;
 
 
-public class variabler2 {
+public class  variabler2 {
     public static void main(String[] args) {
         showMessageDialog(null, "Hei!");
         String forNavn = showInputDialog("Hva er fornavnet ditt?");

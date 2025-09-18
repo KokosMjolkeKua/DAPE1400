@@ -1,4 +1,4 @@
 package packagemakingtest;
 
-public class forelesning1 {
+public class  forelesning1 {
 }

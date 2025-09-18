@@ -31,7 +31,7 @@ public class TicketV3 {
     public void printTicketInfo () {
         String out = "\nTicket info"
                 + "\nName: " + this.name
-                + "\nPerson Nr: " + this.getMaskedPersonNr()
+                + "\nPerson Nr:  " + this.getMaskedPersonNr()
                 + "\nDestination: " + this.destination;
         showMessageDialog(null, out);
     }

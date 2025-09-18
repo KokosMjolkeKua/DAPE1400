@@ -3,7 +3,7 @@ import javax.swing.*;
 
 import static javax.swing.JOptionPane.*;
 
-class Boker {
+class  Boker {
     public String tittel;
     public String pris;
     public String forfatter;
@@ -27,7 +27,7 @@ class Boker {
 
 
 }
-    public class Oppgave2 {
+    public class  Oppgave2 {
     public static void main(String[]args){
 
         Boker nyBok = new Boker();
