@@ -1,5 +1,6 @@
 package Live_Koding_Forelesning5_Loops;
 import static javax.swing.JOptionPane.*;
+
 public class main {
     public static void main(String[]args){
         String countFromInput = showInputDialog("Countdown from: ").toLowerCase();
