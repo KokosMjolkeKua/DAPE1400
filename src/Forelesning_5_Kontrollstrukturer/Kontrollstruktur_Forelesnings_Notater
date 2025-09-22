@@ -40,3 +40,6 @@ if()
 toLowerCase, for å alltid gjøre alt uansett hva du skriver så bblir
 det lower case.
 toUpperCase, er samme men motsatt
+
+
+while loop er når man alltid ender opp tilbake på samme sted

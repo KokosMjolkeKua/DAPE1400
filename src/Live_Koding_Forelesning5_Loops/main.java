@@ -5,14 +5,11 @@ public class main {
     public static void main(String[]args){
         String countFromInput = showInputDialog("Countdown from: ").toLowerCase();
         int countFrom = Integer.parseInt(countFromInput);
-        int currentCount = countFrom;
 
-
-        while(currentCount > 0)
-        {
+        for (int currentCount = countFrom; currentCount > 0; currentCount --){
             System.out.println(currentCount);
-            currentCount --;
         }
+
         System.out.println("Launching Rocket!");
 
     }
